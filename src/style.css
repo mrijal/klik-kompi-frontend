@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+.bg-primary {
+    background: #ad191b !important;
+    color: #ffffff !important;
+}
+
+.bg-primary:hover {
+    background: #b71c1c !important;
+}
+
+.text-primary {
+    color: #ad191b !important;
+}
+
+.bg-custom { 
+    background: url('/public/images/bg-home.png');
+    background-size: contain;
+}
