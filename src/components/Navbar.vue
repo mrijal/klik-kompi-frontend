@@ -9,8 +9,8 @@
           <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
             <router-link to="/" class="nav-link">Home</router-link>
             <!-- <router-link to="/services" class="nav-link">Services</router-link> -->
-            <router-link to="https://www.tokopedia.com/klikkompi" class="nav-link">Product</router-link>
-            <router-link to="https://www.instagram.com/klikkompi/" class="nav-link">About</router-link>
+            <a href="https://www.tokopedia.com/klikkompi" class="nav-link">Product</a>
+            <a href="https://www.instagram.com/klikkompi/" class="nav-link">About</a>
           </div>
         </div>
 
@@ -38,8 +38,8 @@
     <div v-if="isOpen" class="sm:hidden px-4 pb-3 space-y-1">
       <router-link to="/" class="mobile-link">Home</router-link>
       <!-- <router-link to="/services" class="mobile-link">Services</router-link> -->
-      <router-link to="https://www.tokopedia.com/klikkompi" class="mobile-link">Product</router-link>
-      <router-link to="https://www.instagram.com/klikkompi/" class="mobile-link">About</router-link>
+      <a href="https://www.tokopedia.com/klikkompi" class="mobile-link">Product</a>
+      <a href="https://www.instagram.com/klikkompi/" class="mobile-link">About</a>
       <!-- <router-link to="/login" class="mobile-link">Login</router-link> -->
     </div>
   </nav>

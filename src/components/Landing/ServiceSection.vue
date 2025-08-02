@@ -9,9 +9,10 @@
                 <h3 class="text-lg font-semibold">{{ service.title }}</h3>
             </div>
             <p class="text-gray-600 text-justify">{{ service.desc }}</p>
-            <router-link :to="service.url" class="inline-block bg-primary text-white px-4 py-2 rounded">
+
+            <a :href="service.url" target="_blank" class="inline-block bg-primary text-white px-4 py-2 rounded">
             Lihat Layanan
-            </router-link>
+            </a>
         </div>
         </div>
     </div>
