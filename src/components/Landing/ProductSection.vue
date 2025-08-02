@@ -48,7 +48,7 @@ console.log(products.value)
 
 onMounted(async () => {
   try {
-    const res = await fetch('http://localhost:5000/api/products')
+    const res = await fetch(`https://klik-kompi-backend-production.up.railway.app/api/products`)
     const data = await res.json()
     products.value = data
   } catch (err) {
