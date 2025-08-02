@@ -24,19 +24,19 @@ const services = [
   { 
     title: 'Jual Produk', 
     desc: 'Kami menjual produk yang berkualitas untuk keperluan komputer dan laptop kamu, mulai dari bekas berkualitas sampai yang terbaru.', 
-    icon: '../../../public/images/icon-jual.png',
+    icon: '/images/icon-jual.png',
     url: 'https://www.tokopedia.com/klikkompi'
   },
   { 
     title: 'Servis & Perbaikan', 
     desc: 'Laptop atau komputermu rusak? terasa ngelag? atau ingin sekadar diberikan perawatan? Kami siap membantu.', 
-    icon: '../../../public/images/icon-service.png',
+    icon: '/images/icon-service.png',
     url: 'https://wa.me/62895321169875?text=Hallo%20saya%20mau%20informasi%20lebih%20lanjut%20tentang%20service%20di%20klik%20kompi'
   },
   { 
     title: 'Konsultasi', 
     desc: 'Ingin mendapatkan solusi terbaik untuk kebutuhan IT Anda? mulai dari konsultasi rakit pc, beli laptop sampai kebutuhan perusahaan, Tim kami siap membantu.', 
-    icon: '../../../public/images/icon-consult.png',
+    icon: '/images/icon-consult.png',
     url: 'https://wa.me/62895321169875?text=Hallo%20Saya%20mau%20konsultasi%20ke%20klikkompi'
   }
 ]
