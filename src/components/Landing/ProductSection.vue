@@ -13,6 +13,8 @@
       </button>
     </div> -->
 
+    <!-- Hallo test -->
+
     <div class="grid grid-cols-2 md:grid-cols-6 gap-4 px-4 flex justify-center">
       <div
         v-for="product in filteredProducts"
